@@ -29,9 +29,9 @@ export function TableNuevaSolicitud({ data, sendDataToParent }) {
                   role="switch"
                 >
                   {solicitud.valido ? (
-                    <span class="h-4 w-4 translate-x-3.5 transform rounded-full bg-green-500 shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
+                    <span class="h-4 w-4 translate-x-3.5 transform rounded-full bg-green-400 shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
                   ) : (
-                    <span class="h-4 w-4 translate-x-0 transform rounded-full bg-red-500 shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
+                    <span class="h-4 w-4 translate-x-0 transform rounded-full bg-red-400 shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
                   )}
                 </button>
               </td>

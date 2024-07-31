@@ -1,4 +1,4 @@
-export default function CustomTableDirector({ columns, data }) {
+export default function CustomTableDirector({data }) {
   return (
     <div>
       <table className="min-w-full divide-y divide-gray-200">

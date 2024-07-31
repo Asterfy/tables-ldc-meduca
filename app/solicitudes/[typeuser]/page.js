@@ -1,10 +1,7 @@
-"use client"; // Asegúrate de que el componente esté marcado como cliente
+"use client";
 
 import { useEffect } from "react";
-import { useRouter } from "next/navigation"; // Asegúrate de usar next/navigation
-import data from "../../../dataRequestsAdminSolved.json";
-import { SimpleTable } from "@/app/components/SimpleTable";
-import SolicitudesLayout from "./layout";
+import { useRouter } from "next/navigation"; 
 
 export default function Page({ params }) {
   const { typeuser } = params;

@@ -14,13 +14,6 @@ export function Sidebar() {
         <CalendarIcon className="w-7" />
         <span className="text-xs text-center flex pt-2">Mis Solicitudes</span>
       </div>
-      {/* <Link
-        href={`/solicitudes`}
-        key="Solicitudes"
-        className="bg-blue-meduca-2 text-white group flex flex-col items-center px-2 py-4 font-medium rounded-md sm:flex-none"
-      >
-        <span className="text-xs text-center flex pt-2">Mis Solicitudes</span>
-      </Link> */}
     </div>
   );
 }

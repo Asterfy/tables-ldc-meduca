@@ -1,7 +1,5 @@
 "use client";
-import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 
 export function ButtonsAdmin({selected}) {
   const router = useRouter();
@@ -33,16 +31,6 @@ export function ButtonsAdmin({selected}) {
       >
         Solicitudes resueltas
       </button>
-      {/* <div className="flex items-center absolute right-24 p-2 text-lg">
-        <label className="mr-2" htmlFor="estado">
-          Estado:
-        </label>
-        <select id="estado" className="p-2 border-2 border-black rounded-lg">
-          <option value="todos">Todos</option>
-          <option value="activado">Activado</option>
-          <option value="desactivado">Desactivado</option>
-        </select>
-      </div> */}
     </div>
   );
 }
